@@ -51,7 +51,7 @@
         "links": {
             "cheap": "http://google.com",
             "mid": "http://google.com",
-            "expensive": "http://google.com"
+            "expensive": "http://google.com",
         "name": "Jordan 5 Retro Trophy Room Ice Blue",
         "description": "ICE BLUE/UNIVERSITY RED-SAIL-METALLIC GOLD",
         "image": "https://stockx.imgix.net/Air-Jordan-5-Retro-Trophy-Room-Ice-Blue.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&trim=color&updated_at=1558192374&w=1300",
@@ -61,7 +61,8 @@
             "mid": "https://www.goat.com/sneakers/trophy-room-x-air-jordan-5-retro-ice-blue-tr-jsp-5-ice",
             "expensive": "https://stockx.com/air-jordan-5-retro-trophy-room-ice-blue"
         }
-    },
+    }
+},
     {
         "name": "Supreme Grand Prix Belted Short Multicolor",
         "description": "Multicolor",
