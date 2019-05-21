@@ -1,24 +1,32 @@
-const News = require('../models/newsModel')
+// require models 
+// require json data
+
+const newsModel = require('../models/newsModel')
 const news = require('./news.json')
-const Clothing = require('../Models/clothingModel')
+const clothingModel = require('../Models/clothingModel')
 const clothing = require('./clothing.json')
 
-News.deleteMany({}).then(() => {
-    News.create(news)
-        .then(newNews => {
-            console.log(newNews)
-        })
-        .catch(err => {
-            console.log(err)
-        })
-})
 
-Clothing.deleteMany({}).then(() => {
-    Clothing.create(clothing)
-        .then(newClothing => {
-            console.log(newClothing)
-        })
-        .catch(err => {
-            console.log(err)
-        })
-})
+
+//remove all existing data from model, and reinsert data from json file
+newsModel.find({}).remove({});
+newsModel.collection
+  .insert(news)
+  .then(news => {
+    console.log(news);
+  })
+  .catch(err => {
+    console.log(err);
+  });
+
+clothingModel.find({}).remove({});
+clothingModel.collection
+  .insert(clothing)
+  .then(clothing => {
+    console.log(clothing);
+  })
+  .catch(err => {
+    console.log(err);
+  });
+
+

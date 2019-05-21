@@ -1,123 +1,179 @@
 [
-    {
-        "name": "Off-White slides",
-        "description": "black slides from Off-White",
-        "image": "https://www.grailed.com/listings/9457100-Off-White-Off-White-Slides",
-        "brand": "Off-White",
-        "type": "footwear",
-        "links": {
-            "cheap": "http://google.com",
-            "mid": "http://google.com",
-            "expensive": "http://google.com"
-        }
-        
-        
-    },
-    {
-        "name": "Suicide",
-        "description": "Black sandals with velcro",
-        "image": "https://www.grailed.com/listings/9445316-Suicoke-Suicoke-padri-Black",
-        "brand": "Suicoke",
-        "type": "footwear",
-        "links": {
-            "cheap": "http://google.com",
-            "mid": "http://google.com",
-            "expensive": "http://google.com"
-        }
-    },
-    {
-        "name": "Reaper",
-        "description": "reaper rayon shirt 100% authentic",
-        "image": "https://www.grailed.com/listings/9456692-Supreme-Supreme-reaper-rayon-shirt-100--Authentic",
-        "brand": "Supreme",
-        "type": "tops",
-        "links": {
-            "cheap": "http://google.com",
-            "mid": "http://google.com",
-            "expensive": "http://google.com"
-        }
-    },
-    {
-        "name": "Tree pink camo",
-        "description": "flannel shirt",
-        "image": "https://www.grailed.com/listings/9445876-Supreme-Supreme-Real-Tree-pink-camo-flannel-shirt",
-        "brand": "Supreme",
-        "type": "tops",
-        "links": {
-            "cheap": "http://google.com",
-            "mid": "http://google.com",
-            "expensive": "http://google.com"
-        }
-    },
-    {
-        "name": "Parley",
-        "description": "NMD city sock sneaker",
-        "image": "https://www.grailed.com/listings/9464138-Adidas-Adidas-NMD-City-Sock-Parley",
-        "brand": "adidas",
-        "type": "footwear",
-        "links": {
-            "cheap": "http://google.com",
-            "mid": "http://google.com",
-            "expensive": "http://google.com",
+  {
+    "name": "Air Jordan 1",
+    "description": "lorem ipsum",
+    "image": "lorem ipsum",
+    "brand": "lorem ipsum",
+    "links": {
+      "cheap": "lorem ipsum",
+      "mid": "lorem ipsum",
+      "expensive": "lorem ipsum"
+    }
+  },
+  {
+    "name": "Air Jordan 1",
+    "description": "lorem ipsum",
+    "image": "lorem ipsum",
+    "brand": "lorem ipsum",
+    "links": {
+      "cheap": "lorem ipsum",
+      "mid": "lorem ipsum",
+      "expensive": "lorem ipsum"
+    }
+  },
+  {
+    "name": "Air Jordan 1",
+    "description": "lorem ipsum",
+    "image": "lorem ipsum",
+    "brand": "lorem ipsum",
+    "links": {
+      "cheap": "lorem ipsum",
+      "mid": "lorem ipsum",
+      "expensive": "lorem ipsum"
+    }
+  },
+  {
+    "name": "Air Jordan 1",
+    "description": "lorem ipsum",
+    "image": "lorem ipsum",
+    "brand": "lorem ipsum",
+    "links": {
+      "cheap": "lorem ipsum",
+      "mid": "lorem ipsum",
+      "expensive": "lorem ipsum"
+    }
+  },
+  {
+    "name": "Air Jordan 1",
+    "description": "lorem ipsum",
+    "image": "lorem ipsum",
+    "brand": "lorem ipsum",
+    "links": {
+      "cheap": "lorem ipsum",
+      "mid": "lorem ipsum",
+      "expensive": "lorem ipsum"
+    }
+  },
+  {
+    "name": "Off-White slides",
+    "description": "black slides from Off-White",
+    "image": "https://www.grailed.com/listings/9457100-Off-White-Off-White-Slides",
+    "brand": "Off-White",
+    "type": "footwear",
+    "links": {
+      "cheap": "http://google.com",
+      "mid": "http://google.com",
+      "expensive": "http://google.com"
+    }
+  },
+  {
+    "name": "Suicide",
+    "description": "Black sandals with velcro",
+    "image": "https://www.grailed.com/listings/9445316-Suicoke-Suicoke-padri-Black",
+    "brand": "Suicoke",
+    "type": "footwear",
+    "links": {
+      "cheap": "http://google.com",
+      "mid": "http://google.com",
+      "expensive": "http://google.com"
+    }
+  },
+  {
+    "name": "Reaper",
+    "description": "reaper rayon shirt 100% authentic",
+    "image": "https://www.grailed.com/listings/9456692-Supreme-Supreme-reaper-rayon-shirt-100--Authentic",
+    "brand": "Supreme",
+    "type": "tops",
+    "links": {
+      "cheap": "http://google.com",
+      "mid": "http://google.com",
+      "expensive": "http://google.com"
+    }
+  },
+  {
+    "name": "Tree pink camo",
+    "description": "flannel shirt",
+    "image": "https://www.grailed.com/listings/9445876-Supreme-Supreme-Real-Tree-pink-camo-flannel-shirt",
+    "brand": "Supreme",
+    "type": "tops",
+    "links": {
+      "cheap": "http://google.com",
+      "mid": "http://google.com",
+      "expensive": "http://google.com"
+    }
+  },
+  {
+    "name": "Parley",
+    "description": "NMD city sock sneaker",
+    "image": "https://www.grailed.com/listings/9464138-Adidas-Adidas-NMD-City-Sock-Parley",
+    "brand": "adidas",
+    "type": "footwear",
+    "links": {
+      "cheap": "http://google.com",
+      "mid": "http://google.com",
+      "expensive": "http://google.com"
+    }
+  },
+  {
+    "name": "Jordan 5 Retro Trophy Room Ice Blue",
+    "description": "ICE BLUE/UNIVERSITY RED-SAIL-METALLIC GOLD",
+    "image": "https://stockx.imgix.net/Air-Jordan-5-Retro-Trophy-Room-Ice-Blue.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&trim=color&updated_at=1558192374&w=1300",
+    "brand": "Jordan",
+    "type": "footwear",
+    "links": {
+      "cheap": "https://www.ebay.com/itm/Air-Jordan-5-Retro-x-Trophy-Room-Ice-Blue-Size-10/192920812902?hash=item2ceaf9fd66:g:JcgAAOSwa45c4HNv",
+      "mid": "https://www.goat.com/sneakers/trophy-room-x-air-jordan-5-retro-ice-blue-tr-jsp-5-ice",
+      "expensive": "https://stockx.com/air-jordan-5-retro-trophy-room-ice-blue"
+    }
+  },
 
-        "name": "Jordan 5 Retro Trophy Room Ice Blue",
-        "description": "ICE BLUE/UNIVERSITY RED-SAIL-METALLIC GOLD",
-        "image": "https://stockx.imgix.net/Air-Jordan-5-Retro-Trophy-Room-Ice-Blue.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&trim=color&updated_at=1558192374&w=1300",
-        "brand": "Jordan",
-        "type": "footwear",
-        "links": {
-            "cheap": "https://www.ebay.com/itm/Air-Jordan-5-Retro-x-Trophy-Room-Ice-Blue-Size-10/192920812902?hash=item2ceaf9fd66:g:JcgAAOSwa45c4HNv",
-            "mid": "https://www.goat.com/sneakers/trophy-room-x-air-jordan-5-retro-ice-blue-tr-jsp-5-ice",
-            "expensive": "https://stockx.com/air-jordan-5-retro-trophy-room-ice-blue"
-        }
+  {
+    "name": "Supreme Grand Prix Belted Short Multicolor",
+    "description": "Multicolor",
+    "image": "https://stockx.imgix.net/products/streetwear/Supreme-Grand-Prix-Belted-Short-Multicolor.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&trim=color&updated_at=1557408733&w=1300",
+    "brand": "Supreme",
+    "type": "bottoms",
+    "links": {
+      "cheap": "https://stockx.com/supreme-grand-prix-belted-short-multicolor",
+      "mid": "https://www.ebay.com/i/163682931773?chn=ps",
+      "expensive": ""
     }
-},
-    {
-        "name": "Supreme Grand Prix Belted Short Multicolor",
-        "description": "Multicolor",
-        "image": "https://stockx.imgix.net/products/streetwear/Supreme-Grand-Prix-Belted-Short-Multicolor.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&trim=color&updated_at=1557408733&w=1300",
-        "brand": "Supreme",
-        "type": "bottoms",
-        "links": {
-            "cheap": "https://stockx.com/supreme-grand-prix-belted-short-multicolor",
-            "mid": "https://www.ebay.com/i/163682931773?chn=ps",
-            "expensive": ""
-        }
-    },
-    {
-        "name": "Rolex Submariner 116610LV",
-        "description": "The Rolex Submariner 116610LV, aka the 'Hulk' was first introduced in 2010 as a nod to the 50th anniversary Submariner from 2003. The deep green watch ushered in the use of a ceramic bezel, thicker lugs, and larger hour makers on the dial. The LV Sub from Rolex is a great way to stand out in a crowd of black and white dialed watches thanks to the green dial and bezel. The LV Submariner's case and oyster bracelet are constructed of 904l steel, and inside is a Rolex built, chronometer grade automatic movement. Of course, it can still handle itself underwater, with a Cerachrom unidirectional rotating bezel, a Triplock screw in crown, and a 1,000ft/300m depth rating.",
-        "image": "https://stockx.imgix.net/products/watches/Rolex-Submariner-116610LV-Green-front.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1538080256",
-        "brand": "Rolex",
-        "type": "accessories",
-        "links": {
-            "cheap": "",
-            "mid": "https://www.ebay.com/itm/Rolex-Submariner-116610LV-Hulk-Green-Steel-Ceramic-Automatic-Mens-Watch/303134328289?epid=2117318586&hash=item469436c5e1:g:TsoAAOSwqadcv7s8",
-            "expensive": "https://stockx.com/rolex-submariner-116610lv-green"
-        }
-    },
-    {
-        "name": "BAPE Half Camo Shark Mask Yellow/Green",
-        "description": "Yellow/Green Camo mask",
-        "image": "https://stockx.imgix.net/products/streetwear/BAPE-Half-Camo-Shark-Mask-Yellow-Green.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&trim=color&updated_at=1553651363&w=1300",
-        "brand": "Bape",
-        "type": "accessories",
-        "links": {
-            "cheap": "",
-            "mid": "https://sobump.com/products/mxWD06HDj6-Bape-1St-Camo-Half-Camo-Shark-Mask",
-            "expensive": "https://stockx.com/bape-half-camo-shark-mask-yellow-green"
-        }
-    },
-    {
-        "name": "MCM Stark Backpack Visetos Side Studs Small Cognac",
-        "description": "Over the back designer bag",
-        "image": "https://stockx.imgix.net/products/handbags/MCM-Stark-Backpack-Visetos-Side-Studs-Small-Cognac-Studio-1.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=auto&trimmd=1&updated_at=1554408295",
-        "brand": "MCM",
-        "type":"accessories",
-        "links": {
-            "cheap": "",
-            "mid": "https://stockx.com/mcm-stark-backpack-visetos-side-studs-small-cognac-1",
-            "expensive": ""
-        }
+  },
+
+  {
+    "name": "Rolex Submariner 116610LV",
+    "description": "The Rolex Submariner 116610LV, aka the 'Hulk' was first introduced in 2010 as a nod to the 50th anniversary Submariner from 2003. The deep green watch ushered in the use of a ceramic bezel, thicker lugs, and larger hour makers on the dial. The LV Sub from Rolex is a great way to stand out in a crowd of black and white dialed watches thanks to the green dial and bezel. The LV Submariner's case and oyster bracelet are constructed of 904l steel, and inside is a Rolex built, chronometer grade automatic movement. Of course, it can still handle itself underwater, with a Cerachrom unidirectional rotating bezel, a Triplock screw in crown, and a 1,000ft/300m depth rating.",
+    "image": "https://stockx.imgix.net/products/watches/Rolex-Submariner-116610LV-Green-front.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1538080256",
+    "brand": "Rolex",
+    "type": "accessories",
+    "links": {
+      "cheap": "",
+      "mid": "https://www.ebay.com/itm/Rolex-Submariner-116610LV-Hulk-Green-Steel-Ceramic-Automatic-Mens-Watch/303134328289?epid=2117318586&hash=item469436c5e1:g:TsoAAOSwqadcv7s8",
+      "expensive": "https://stockx.com/rolex-submariner-116610lv-green"
     }
+  },
+  {
+    "name": "BAPE Half Camo Shark Mask Yellow/Green",
+    "description": "Yellow/Green Camo mask",
+    "image": "https://stockx.imgix.net/products/streetwear/BAPE-Half-Camo-Shark-Mask-Yellow-Green.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&trim=color&updated_at=1553651363&w=1300",
+    "brand": "Bape",
+    "type": "accessories",
+    "links": {
+      "cheap": "",
+      "mid": "https://sobump.com/products/mxWD06HDj6-Bape-1St-Camo-Half-Camo-Shark-Mask",
+      "expensive": "https://stockx.com/bape-half-camo-shark-mask-yellow-green"
+    }
+  },
+  {
+    "name": "MCM Stark Backpack Visetos Side Studs Small Cognac",
+    "description": "Over the back designer bag",
+    "image": "https://stockx.imgix.net/products/handbags/MCM-Stark-Backpack-Visetos-Side-Studs-Small-Cognac-Studio-1.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=auto&trimmd=1&updated_at=1554408295",
+    "brand": "MCM",
+    "type": "accessories",
+    "links": {
+      "cheap": "",
+      "mid": "https://stockx.com/mcm-stark-backpack-visetos-side-studs-small-cognac-1",
+      "expensive": ""
+    }
+  }
 ]
