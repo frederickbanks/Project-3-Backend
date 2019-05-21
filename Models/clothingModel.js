@@ -10,7 +10,8 @@ const ClothingSchema = new Schema({
         cheap: String,
         mid: String,
         expensive: String
-    }
+    },
+    favorite: Boolean
 });
 
 let clothing = mongoose.model('Clothing', ClothingSchema);
