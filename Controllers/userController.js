@@ -1,5 +1,9 @@
-// const user = require('../Models/userModel')
+const express = require('express')
+const router = express.Router()
+const jwt = require('jwt-simple')
 
-// module.exports = {
-    
-// }
+
+
+
+
+module.exports = router
