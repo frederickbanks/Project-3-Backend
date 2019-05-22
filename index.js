@@ -6,6 +6,9 @@
 const express = require("express");
 const parser = require("body-parser");
 const cors = require("cors");
+const passport = require('./config/passport')()
+//REQUIRE USER CONTROLLER
+const userController = require('./Controllers/userController')
 // require routes
 const clothing = require('./Routes/clothingRoutes');
 const news = require("./Routes/newsRoutes.js");
@@ -21,6 +24,8 @@ app.use("/api/news", news);
 // USE PASSPORT
 app.use(passport.initialize())
 
+//USE USER CONTROLLER
+app.use('/users', userController)
 
 //local port
 app.set("port", process.env.PORT || 4060);
