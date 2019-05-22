@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.Promise = Promise;
+const express = require('express')
 
 let mongoURI = '';
 
@@ -10,9 +10,9 @@ if(process.env.NODE_ENV == 'production') {
 }
 
 mongoose.connect(mongoURI, {useNewUrlParser: true })
-.then(ins => console.log(`Connected to database: ${inst.connections[0].name}`))
+.then(inst => console.log(`Connected to database: ${inst.connections[0].name}`))
 .catch(err => console.log('Connection failed!', err));
 
-
+mongoose.Promise = Promise;
 
 module.exports = mongoose;
