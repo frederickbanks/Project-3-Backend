@@ -1,11 +1,13 @@
 // this is a test
+
+
+// require express, body-parser, cors
 const express = require("express");
 const parser = require("body-parser");
 const cors = require("cors");
 // require routes
 const clothing = require('./Routes/clothingRoutes');
 const news = require("./Routes/newsRoutes.js");
-
 const app = express();
 
 //body parser
@@ -14,7 +16,8 @@ app.use(parser.json());
 app.use("/api/clothing", clothing);
 app.use("/api/news", news);
 
-//Use of Controllers go here
+// USE PASSPORT
+app.use(passport.initialize())
 
 //local port
 app.set("port", process.env.PORT || 4060);
