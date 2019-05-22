@@ -1,13 +1,16 @@
-const mongoose = require('../db/connection');
-const Schema = mongooseSchema;
+const mongoose = require("../db/connection");
+const Schema = mongoose.Schema;
 
 const NewsSchema = new Schema({
-	title: String,
-	paragraph: String,
-	image: String,
-	comments: []
+  title: String,
+  paragraph: String,
+  image: String,
+  comments: [
+    {
+      User: String,
+      paragraph: String
+    }
+  ]
 });
 
-let news = mongoose.model('News', NewsSchema);
-
-module.export = news;
+module.exports = mongoose.model("News", NewsSchema);

@@ -1,23 +1,25 @@
 // this is a test
-const express = require('express')
-const parser = require('body-parser')
-const cors = require('cors')
+const express = require("express");
+const parser = require("body-parser");
+const cors = require("cors");
+// require routes
+const clothing = require('./Routes/clothingRoutes');
+const news = require("./Routes/newsRoutes.js");
 
-const app = express()
-
-//Require Controllers will go here
+const app = express();
 
 //body parser
-app.use(parser.urlencoded({extended: true}));
-app.use(parser.json())
+app.use(parser.urlencoded({ extended: true }));
+app.use(parser.json());
+app.use("/api/clothing", clothing);
+app.use("/api/news", news);
 
 //Use of Controllers go here
 
-
 //local port
-app.set('port', process.env.PORT || 4060)
+app.set("port", process.env.PORT || 4060);
 
 //listen on port 4060
-app.listen(app.get('port'), () => {
-    console.log(`App active on port ${app.get('port')}`)
-})
+app.listen(app.get("port"), () => {
+  console.log(`App active on port ${app.get("port")}`);
+});
