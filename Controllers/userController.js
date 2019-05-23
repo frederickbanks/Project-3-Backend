@@ -9,6 +9,12 @@ const config = require('../config/config')
 const User = require('../Models/userModel')
 
 //SIGNUP POST REQUEST (create token for when user signs up)
+router.get('/', (req, res) => {
+  User.find({}).then(results => {
+    res.json(results)
+  })
+})
+
 router.post('/signup', (req,res) => {
     // if there is a email and passord set values
     if(req.body.email && req.body.password){
@@ -67,7 +73,8 @@ router.post('/login', (req, res) => {
     } else {
       res.sendStatus(401)
     }
-  })
+  }),
+
 
 
 
