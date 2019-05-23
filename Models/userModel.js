@@ -3,7 +3,13 @@ const Schema = mongoose.Schema;
 
 const UserSchema = new Schema({
 	email: String,
-	password: String
+	password: String,
+	favorites: [
+		{
+			type: Schema.ObjectId,
+			ref: "Clothing"
+		}
+	]
 });
 
 
