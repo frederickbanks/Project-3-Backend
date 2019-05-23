@@ -14,7 +14,7 @@ const params = {
     jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken()
 }
 
-module.exports= function() {
+module.exports = function() {
     let strat = new Strategy(params, (payload, callback) => {
         let user = User.findById(payload.id) || null
         if(user) {
