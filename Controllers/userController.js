@@ -10,10 +10,10 @@ const User = require('../Models/userModel')
 
 //SIGNUP POST REQUEST (create token for when user signs up)
 router.post('/signup', (req,res) => {
-    // if there is a username and passord set values
-    if(req.body.username && req.body.password){
+    // if there is a email and passord set values
+    if(req.body.email && req.body.password){
         let newUser = {
-            username: req.body.username,
+            email: req.body.email,
             password: req.body.password
         }
         User.findOne({username: req.body.username})
@@ -46,8 +46,8 @@ router.post('/signup', (req,res) => {
 
 //USER LOGIN(CREATE TOKEN FOR USER LOGIN)
 router.post('/login', (req, res) => {
-    if (req.body.username && req.body.password) {
-      User.findOne({ username: req.body.username }).then(user => {
+    if (req.body.email && req.body.password) {
+      User.findOne({ email: req.body.email }).then(user => {
         if (user) {
           if (user.password === req.body.password) {
             var payload = {
