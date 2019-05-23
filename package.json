@@ -25,9 +25,9 @@
     "express-jwt": "^5.3.1",
     "jwt-simple": "^0.5.6",
     "mongoose": "^5.5.9",
-    "passport": "^0.4.0",
-    "passport-jwt": "^4.0.0",
     "node": "^12.2.0",
-    "nodemon": "^1.19.0"
+    "nodemon": "^1.19.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0"
   }
 }
