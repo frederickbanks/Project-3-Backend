@@ -11,9 +11,5 @@ module.exports = {
     news.findOne({ title: title }).then(results => {
       res.json(results);
     });
-  },
-  
-
-  
-  
+  }
 };
