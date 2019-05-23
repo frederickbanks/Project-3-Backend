@@ -22,7 +22,7 @@ router.post('/signup', (req,res) => {
             email: req.body.email,
             password: req.body.password
         }
-        User.findOne({username: req.body.username})
+        User.findOne({email: req.body.email})
         .then((user) => {
             //if user doesn't exist create a new user
             if(!user) {
