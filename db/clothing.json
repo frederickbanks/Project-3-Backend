@@ -1,7 +1,7 @@
 [
   {
     "name": "Nike Air Jordan 1 Travis Scott",
-    "description": "Brand new. Never worn. 100% authentic. Bought from snkrs app.",
+    "description": "Brand new. Never worn. 100% authentic.",
     "image": "https://process.fs.grailed.com/AJdAgnqCST4iPtnUxiGtTz/cache=expiry:max/rotate=deg:exif/resize=height:700,fit:scale/output=format:webp,quality:90/compress/https://cdn.fs.grailed.com/api/file/xXGrflk7RWWe9ph10WxC",
     "brand": "Jordan Brand",
     "links": {
@@ -27,12 +27,12 @@
     "soldout": "false"
   },
   {
-    "name": "Air Jordan 1",
-    "description": "lorem ipsum",
-    "image": "lorem ipsum",
-    "brand": "lorem ipsum",
+    "name": "Basic Shorts",
+    "description": "Get some swag",
+    "image": "https://process.fs.grailed.com/AJdAgnqCST4iPtnUxiGtTz/cache=expiry:max/rotate=deg:exif/resize=height:700,fit:scale/output=format:webp,quality:90/compress/https://cdn.fs.grailed.com/api/file/EyU4Wh5qSK6i3hOJNQEF",
+    "brand": "Eric Emanuel",
     "links": {
-      "cheap": "lorem ipsum",
+      "cheap": "https://www.grailed.com/listings/8295033-Eric-Emanuel-Eric-Emanuel-EE-Basic-Short-XL-X-Large-Large-Orange---Aqua-Blue-New-RARE",
       "mid": "lorem ipsum",
       "expensive": "lorem ipsum"
     },
@@ -40,12 +40,12 @@
     "soldout": "false"
   },
   {
-    "name": "Air Jordan 1",
-    "description": "lorem ipsum",
-    "image": "lorem ipsum",
-    "brand": "lorem ipsum",
+    "name": "Vintage Nike Joggers",
+    "description": "drippy",
+    "image": "https://process.fs.grailed.com/AJdAgnqCST4iPtnUxiGtTz/cache=expiry:max/rotate=deg:exif/resize=height:700,fit:scale/output=format:webp,quality:90/compress/https://cdn.fs.grailed.com/api/file/ZaCKBZfJQG6gBw1JqVmh",
+    "brand": "Nike",
     "links": {
-      "cheap": "lorem ipsum",
+      "cheap": "https://www.grailed.com/listings/9424720-Nike---Vintage-Vintage-Nike-Wind-Pants",
       "mid": "lorem ipsum",
       "expensive": "lorem ipsum"
     },
@@ -53,12 +53,12 @@
     "soldout": "false"
   },
   {
-    "name": "Air Jordan 1",
-    "description": "lorem ipsum",
-    "image": "lorem ipsum",
-    "brand": "lorem ipsum",
+    "name": "Thrasher Shorts",
+    "description": "for the warmer weather",
+    "image": "https://process.fs.grailed.com/AJdAgnqCST4iPtnUxiGtTz/cache=expiry:max/rotate=deg:exif/resize=height:700,fit:scale/output=format:webp,quality:90/compress/https://cdn.fs.grailed.com/api/file/I6AZlmnNTSCEOaGK1vgF",
+    "brand": "Supreme",
     "links": {
-      "cheap": "lorem ipsum",
+      "cheap": "https://www.grailed.com/listings/9418208-Supreme---Thrasher-Supreme-x-Thrasher-Shorts-SS15-Size-XL",
       "mid": "lorem ipsum",
       "expensive": "lorem ipsum"
     },
@@ -72,9 +72,9 @@
     "brand": "Off-White",
     "type": "footwear",
     "links": {
-      "cheap": "http://google.com",
+      "cheap": "https://www.grailed.com/listings/9457100-Off-White-Off-White-Slides",
       "mid": "http://google.com",
-      "expensive": "http://google.com"
+      "expensive": "https://www.ssense.com/en-us/men/product/off-white/black-stamp-slides/3359689"
     },
     "favorite": "false",
     "soldout": "false"
@@ -86,7 +86,7 @@
     "brand": "Suicoke",
     "type": "footwear",
     "links": {
-      "cheap": "http://google.com",
+      "cheap": "https://www.grailed.com/listings/9445316-Suicoke-Suicoke-padri-Black",
       "mid": "http://google.com",
       "expensive": "http://google.com"
     },
@@ -100,7 +100,7 @@
     "brand": "Supreme",
     "type": "tops",
     "links": {
-      "cheap": "http://google.com",
+      "cheap": "https://www.grailed.com/listings/9456692-Supreme-Supreme-reaper-rayon-shirt-100--Authentic",
       "mid": "http://google.com",
       "expensive": "http://google.com"
     },
@@ -114,7 +114,7 @@
     "brand": "Supreme",
     "type": "tops",
     "links": {
-      "cheap": "http://google.com",
+      "cheap": "https://www.grailed.com/listings/9445876-Supreme-Supreme-Real-Tree-pink-camo-flannel-shirt",
       "mid": "http://google.com",
       "expensive": "http://google.com"
     },
@@ -122,13 +122,13 @@
     "soldout": "false"
   },
   {
-    "name": "Parley",
-    "description": "NMD city sock sneaker",
+    "name": "NMD city sock sneaker Parley",
+    "description": "FIRE",
     "image": "https://www.grailed.com/listings/9464138-Adidas-Adidas-NMD-City-Sock-Parley",
     "brand": "adidas",
     "type": "footwear",
     "links": {
-      "cheap": "http://google.com",
+      "cheap": "https://www.grailed.com/listings/9464138-Adidas-Adidas-NMD-City-Sock-Parley",
       "mid": "http://google.com",
       "expensive": "http://google.com"
     },
@@ -167,7 +167,7 @@
 
   {
     "name": "Rolex Submariner 116610LV",
-    "description": "The Rolex Submariner 116610LV, aka the 'Hulk' was first introduced in 2010 as a nod to the 50th anniversary Submariner from 2003. The deep green watch ushered in the use of a ceramic bezel, thicker lugs, and larger hour makers on the dial. The LV Sub from Rolex is a great way to stand out in a crowd of black and white dialed watches thanks to the green dial and bezel. The LV Submariner's case and oyster bracelet are constructed of 904l steel, and inside is a Rolex built, chronometer grade automatic movement. Of course, it can still handle itself underwater, with a Cerachrom unidirectional rotating bezel, a Triplock screw in crown, and a 1,000ft/300m depth rating.",
+    "description": "The Rolex Submariner 116610LV",
     "image": "https://stockx.imgix.net/products/watches/Rolex-Submariner-116610LV-Green-front.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1538080256",
     "brand": "Rolex",
     "type": "accessories",
