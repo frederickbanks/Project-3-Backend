@@ -10,7 +10,7 @@ router.get('/type/:type',clothing.findByType)
 //create clothing item
 router.post('/', clothing.addItem)
 // delete clothing item
-router.delete('/:name', clothing.deleteItem)
+router.delete('/', clothing.deleteItem)
 //update item
 router.put('/update/:name', clothing.updateSoldout)
 
