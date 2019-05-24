@@ -13,9 +13,9 @@ const userController = require('./Controllers/userController')
 const clothing = require('./Routes/clothingRoutes');
 const news = require("./Routes/newsRoutes.js");
 const app = express();
+
+
 app.use(cors())
-
-
 //body parser
 app.use(parser.urlencoded({ extended: true }));
 app.use(parser.json());
