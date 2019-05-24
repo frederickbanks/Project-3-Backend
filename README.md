@@ -133,8 +133,8 @@ router.delete('/:name', clothing.deleteItem)
 - User favorites display
 - Redirect links for purchasing
 - News feed
-- User favorites(incomplete)
-- Personal feed based upon favorited items(incomplete)
+- User favorites
+- Personal feed based upon favorited items
 
 ## Languages Used
 - MERN(MongoDB, Express, React, Node.js) stack
