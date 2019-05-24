@@ -28,9 +28,10 @@ router.post('/signup', (req, res) => {
         if (!user) {
           User.create(newUser)
             .then(user => {
+              // KIRRAN: Changed newUser.id to user._id in the payload
               if (user) {
                 var payload = {
-                  id: newUser.id
+                  id: user._id
                 }
                 var token = jwt.encode(payload, config.jwtSecret)
                 res.json({
@@ -77,7 +78,9 @@ router.post('/login', (req, res) => {
 
   // add a new favorite clothing to the user
   router.put('/favorites', (req, res) => {
-    User.findOne({ _id: req.body.id })
+    console.log("body", req.body)
+    const user = jwt.decode(req.body.token, config.jwtSecret)
+    User.findOne({ _id: user.id })
       .then(user => {
         user.favorites.push(req.body.clothingId)
         user.save()
@@ -86,5 +89,11 @@ router.post('/login', (req, res) => {
           })
       })
   })
+
+router.get('/id/:token', (req, res) => {
+  const user = jwt.decode(req.params.token, config.jwtSecret)
+  User.findOne({ _id: user.id }).populate('favorites')
+    .then(user => res.json(user))
+})
 
 module.exports = router
